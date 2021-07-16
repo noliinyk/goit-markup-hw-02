@@ -1,0 +1,245 @@
+/* logo-color #2196F3 */  
+
+
+/* address-color #FFFFFF */
+
+/* цвет основного текста #000000 */
+/* вторичный цвет текста  rgba(0, 0, 0, 0.8);
+ */
+/* белый #FFFFFF  */
+/* акцент #18A0FB */
+/* вторичный цвет фона #F5F5F5; */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color:#2196F3;
+    --primary-white-color: #ffffff;
+    --footer-contact-color: rgba(255, 255, 255, 0.6)
+  }
+  
+  body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 14px;
+   /* line-height: 1.67; */
+  }
+
+.list{
+    list-style: none
+}
+
+/* верняя линия */
+/*Лого*/
+.nav-logo:hover,
+.nav-logo:focus,
+.link:hover,
+.link:focus{
+ color: var(--accent-color);
+ 
+}
+
+
+
+/*.nav-logo, {
+    text-decoration: none;
+} */
+
+.logo-accent,
+.logo-nav,
+.logo-footer {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.logo-accent {
+    color: var(--accent-color);
+}
+.nav-logo {
+    color: #000000
+}
+
+.link {
+  color: var(--title-text-color) 
+}
+.link-current {
+    color: var(--accent-color);
+}
+.nav-mail,
+.nav-phone {
+    color: #757575;
+}
+
+.nav-link,
+.nav-mail,
+.nav-phone {
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+ /*   text-decoration: none; */
+}
+
+/*Шапка */
+
+.hero-text {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: var(--primary-white-color);
+background-color: #2F303A;
+}
+
+.hero-button {
+background-color: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--primary-white-color);
+
+}
+.hero-button:hover, 
+.hero-button:focus{
+    cursor: pointer;
+    /*color: */
+}
+
+
+/* Особенности */
+
+.features-name {
+font-weight: 700;
+line-height: 1.14;
+text-transform: uppercase;
+color: var(--title-text-color);
+}
+
+.features-text{
+line-height: 1.71;
+}
+
+
+/* Чем мы занимаемся */
+
+.business-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--title-text-color);
+}
+
+/* Наша команда */
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+    color: var(--title-text-color);
+    }
+
+    .team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;  
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+.team-occupation {
+font-size: 16px;
+line-height: 1.9;
+text-align: center;
+}
+
+/* Футер */
+.footer{
+    background-color: #2F303A;
+}
+
+.footer{
+    line-height: 1.71;
+    color: var(--primary-white-color)
+}
+.address-link{
+    font-style: normal;
+}
+a.footer-list{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-mail,
+.footer-phone
+{ color: var(--footer-contact-color);
+/*text-decoration: none;*/
+}
+
+.footer-mail:hover,
+.footer-phone:hover,
+.footer-mail:focus,
+.footer-phone:focus{
+color: var(--accent-color);
+}
+
+.logo-footer{
+color: var(--primary-white-color);
+}
+
+.link{
+    text-decoration: none;
+}
+
+/* Порфолио */
+/* Фильтры */
+.button-filter{
+background-color: #F5F4FA;
+border-radius: 4px;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+
+color: var(--title-text-color);
+}
+
+.button-filter:focus,
+.button-filter:hover{
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    cursor: pointer;
+}
+
+/* Портфолио работ */
+
+.portfolio-caption{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-text{
+    font-size: 16px;
+    line-height: 1.88;
+}
+
