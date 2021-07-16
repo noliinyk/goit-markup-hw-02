@@ -85,7 +85,6 @@ background-color: #2F303A;
 }
 
 .hero-button {
-color: inherit;
 background-color: var(--accent-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
@@ -208,8 +207,11 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
+}
 
-color: var(--title-text-color);
+#button-filter .portfolio-caption{
+
+ color: var(--title-text-color);
 }
 
 .button-filter:focus,
