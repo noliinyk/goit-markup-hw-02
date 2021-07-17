@@ -62,9 +62,11 @@
     color: #757575;
 }
 
-.nav-link,
+.link,
 .nav-mail,
 .nav-phone {
+    font-weight: 500;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
  /*   text-decoration: none; */
@@ -110,6 +112,7 @@ color: var(--primary-white-color);
 
 .features-name {
 font-weight: 700;
+font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
 color: var(--title-text-color);
@@ -199,19 +202,15 @@ color: var(--primary-white-color);
 /* Порфолио */
 /* Фильтры */
 .button-filter{
-color: inherit;
+font-family: Roboto;
 background-color: #F5F4FA;
+color: var(--title-text-color);
 border-radius: 4px;
 
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
-}
-
-#button-filter .portfolio-caption{
-
- color: var(--title-text-color);
 }
 
 .button-filter:focus,
