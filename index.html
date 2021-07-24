@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
     <!--верняя линия-->
-    <header class="header">
-      <nav>
+    <header class="header ">
+      
+      <div class="container header">
+      <nav class="navigation">
         <a href="/" lang="en" class="nav-logo link"> 
           <span class="logo-accent">Web</span>
           <span class="logo-nav">Studio</span>
@@ -27,19 +30,25 @@
         <li class="list"><a href="mailto:info@devstudio.com" class="nav-mail link">info@devstudio.com</a></li>
         <li class="list"><a href="tel:+380961111111" class="nav-phone link">+38 096 111 11 11</a></li>
       </ul>
+    </div>
+  
     </header>
 
     <main>
       <!-- Шапка -->
       <section class="hero">
+        <div class="container section">
         <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="hero-button">Заказать услугу</button>
+      </div>
       </section>
 
       <!-- Особенности -->
       <section class="features">
+        <div class="container section">
         <h2 class="features-title">Особенности</h2>
-        <ul class="features-list">
+        <div class="features-item">
+          <ul class="features-list">
           <li class="list">
             <h3 class="features-name">Внимание к деталям</h3>
             <p class="features-text">
@@ -69,12 +78,15 @@
             </p>
           </li>
         </ul>
+      </div>
+      </div>
       </section>
 
       <!-- Чем мы занимаемся -->
       <section class="business" >
+        <div class="container section">
         <h3 class="business-title">Чем мы занимаемся</h3>
-        <ul class=business-list>
+        <ul class="business-list">
           <li class="list">
             <img
               src="./images/img1.jpg"
@@ -93,11 +105,13 @@
             <img src="./images/img3.jpg" alt="Графический дизайн" width="370" class="business-example" />
           </li>
         </ul>
+      </div>
       </section>
       <!-- Наша команда -->
       <section class="team">
+        <div class="container section">
         <h3 class="team-title">Наша команда</h3>
-        <ul>
+        <ul class="team-item">
           <li class="list">
             <img
               src="./images/img-product-designer.jpg"
@@ -134,11 +148,13 @@
             <h3 class="team-name">Михаил Ермаков</h3>
             <p lang="en" class="team-occupation">UI Designer</p>
           </li>
-        </ul>
+        </ul> 
+      </div>
       </section>
     </main>
     <!-- Футер -->
     <footer class="footer">
+      <div class="container section">
       <a href="/" lang="en" class="footer-logo link">
         <span class="logo-accent">Web</span>
         <span class="logo-footer">Studio</span>
@@ -149,6 +165,7 @@
         <li class="list"><a href="mailto:info@example.com" class="footer-mail link">info@example.com</a></li>
         <li class="list"><a href="tel:+380991111111" class="footer-phone link">+38 099 111 11 11</a></li>
       </ul>
+    </div>
     </footer>
 </body>
 </html>
